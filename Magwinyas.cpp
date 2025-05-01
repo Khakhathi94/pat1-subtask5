@@ -5,6 +5,7 @@ int main() {
     int temp1, temp2, temp3;
 
     // Input first temperature
+    // I am going to input only integers, no strings or floating numbers.
     cout << "Enter the first temperature reading: ";
     cin >> temp1;
 
