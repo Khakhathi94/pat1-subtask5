@@ -4,18 +4,20 @@ using namespace std;
 int main() {
     int temp1, temp2, temp3;
 
-    // Input first temperature
-    // I am going to input only integers, no strings or floating numbers.
+    // Take the first reading.
     cout << "Enter the first temperature reading: ";
     cin >> temp1;
 
-    // Input second temperature
+    // Take the second reading afer 5 minutes
     cout << "Enter the second temperature reading (5 minutes later): ";
     cin >> temp2;
 
     // Check temperature difference between first and second
-    // I am going to change the temp to floating numbers and not integers.
-    int diff = temp2 - temp1;
+    int diff;
+     diff = temp2 - temp1;
+     //storing the value of the temperature diff.
+     cout << "The value od the diff is : " << diff << endl;
+     
     if (diff > 50) {
         cout << "Reduce fryer heat before taking the third reading." << endl;
     } else if (diff < 10) {
