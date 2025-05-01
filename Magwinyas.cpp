@@ -14,6 +14,7 @@ int main() {
     cin >> temp2;
 
     // Check temperature difference between first and second
+    // I am going to change the temp to floating numbers and not integers.
     int diff = temp2 - temp1;
     if (diff > 50) {
         cout << "Reduce fryer heat before taking the third reading." << endl;
